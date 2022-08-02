@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baat☕Cheet - Realtime Chat and Fun</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="scripts/client.js"></script>
+    <script defer src="https://kit.fontawesome.com/0ace31c79a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sheets/style.css">
+    <link rel="stylesheet" href="sheets/brd.css">
+</head>
+<body>
+    <nav>
+        <img src="assets/logo -6.gif" alt="BaatCheet logo" class="logo">
+        <div id="developer">
+            <span>
+                Made with
+                <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 2s;"></i>
+                by <b>Anand</b>
+                <div id="connect">
+                    <a href="https://github.com/prototype47" target="_blank" style="text-decoration: none; color: var(--universal-color);">
+                        <i class="fa-brands fa-github-square fa-fade" style="--fa-animation-duration: 3s;"></i>
+                    </a> &nbsp;&nbsp;
+                    <a href="https://www.instagram.com/notsoanand_" target="_blank" style="text-decoration: none; color: var(--universal-color);">
+                        <i class="fa-brands fa-instagram fa-fade" style="--fa-animation-duration: 2s;"></i>
+                    </a> &nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/in/anand-s-63as" target="_blank" style="text-decoration: none; color: var(--universal-color);">
+                        <i class="fa-brands fa-linkedin fa-fade" style="--fa-animation-duration: 2.5s;"></i>
+                    </a>
+                </div>
+                <div class="welcome">
+                    <h1>-Welcome to Baat☕Cheet - Your GupSup buddy-</h1>
+                </div>
+                <div class="brdA"></div>
+                <div class="brd brdB"></div>
+                <div class="brd brdC"></div>
+                <div class="brd brdD"></div>
+                <div class="brd brdE"></div>
+                <div class="brd brdF"></div>
+                <div class="brd brdG"></div>
+            </span>
+        </div>
+    </nav>
+    <div class="group">GROUP : - sample name</div>
+    <div class="container">
+        <!-- <div class="message right">Anand: Hey how are you ?</div>
+        <div class="message left">xyz: i'm fine</div>
+        <div class="message right">Anand: Hey how are you ?</div>
+        <div class="message left">xyz: i'm fine</div>
+        <div class="message right">Anand: Hey how are you ?</div>
+        <div class="message left">xyz: i'm fine</div>
+        <div class="message right">Anand: Hey how are you ?</div>
+        <div class="message left">xyz: i'm fine</div>
+        <div class="message right">Anand: Hey how are you ?</div>
+        <div class="message left">xyz: i'm fine</div>
+        <div class="message right">Anand: Hey how are you ?</div>
+        <div class="message left">xyz: i'm fine</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-form">
+            <input type="text" name="inputMsg" id="inputMsg">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
